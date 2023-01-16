@@ -1,5 +1,4 @@
-@import './header.css';
-@import './introducao.css';
+
 
 
 
@@ -27,60 +26,8 @@ a {
   text-decoration: none;
   color:inherit;
 
-
 }
 
-.header-bg {
-  background-color: #000;
-  padding-bottom: 80px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-
-  
-}
-
-.header-menu {
-  display: flex;
-  gap: 40px;
-}
-
-.header-menu a {
-  display: inline-block;
-  padding: 16px 0px;
-  color: #fff;
-  font-family: 'Poppins';
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  position: relative;
-}
-
-.header-menu a:after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 2px;
-  background-color: #fff;
-  transition: 1s;
-  position: absolute;
-
-}
-
-.header-menu a:hover::after {
-  height: 2px;
-  width: 100%;
-  
-}
 
 .introducao-bg {
   background-color: #000;
@@ -161,31 +108,6 @@ a {
 .introducao a:hover {
   background: linear-gradient( #FFC700 , #e4be00 ); 
 
-}
-
-
-@media (max-width: 800px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-
- .header-menu a {
-  background-color: #111111;
-  padding: 12px 16px;
-  border-radius: 4px;
-
- }
-
- .header-menu a:hover {
- background-color: #2e2e2e;
- }
-
- .header a:after {
-  display: none;
- }
 }
 
 @media (max-width: 600px) {
