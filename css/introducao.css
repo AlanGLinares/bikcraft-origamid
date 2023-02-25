@@ -31,7 +31,7 @@ a {
 
 .introducao-bg {
   background-color: #000;
-  color: #fff;
+  color: var(--cor-0);
   box-shadow: inset 0 -120px #fff;
   
 }
@@ -67,34 +67,26 @@ a {
 }
 
 .introducao h1 {
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 64px;
   margin-bottom: 32px;
-  line-height: 1.125;
+  
   
 
 }
 
 .introducao p {
-  font-family: 'Poppins';
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 1.50;
-  color: #B7B7B7;
+
+  color: var(--cor-05);
   margin-bottom: 20px;
 
 }
 
-.introducao span {
-  color: #FFBB00;
-}
+
 
 
 .introducao a {
   display: inline-block;
   padding: 16px 32px;
-  background: #FFBB00;
+  background: var(--cor-p1);
   text-transform: uppercase;
   font-family: roboto;
   color: #111;
@@ -105,10 +97,8 @@ a {
   
 }
 
-.introducao a:hover {
-  background: linear-gradient( #FFC700 , #e4be00 ); 
 
-}
+
 
 @media (max-width: 600px) {
   .introducao a {
@@ -156,3 +146,4 @@ a {
 
   }
 }
+
